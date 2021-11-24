@@ -1747,7 +1747,7 @@ gen_south_india_5 = {
 		trigger = {
 			542 = { owned_by = ROOT }
 			production_leader = {
-				trade_goods = trade_goods = diamonds
+				trade_goods = diamonds
 			}
 		}
 		
