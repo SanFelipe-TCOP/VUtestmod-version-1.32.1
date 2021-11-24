@@ -4,7 +4,7 @@
 
 owner = NOV
 controller = NOV
-culture = russian #116novogorodian
+culture = novgorodian
 religion = orthodox
 hre = no
 base_tax = 11
@@ -38,3 +38,4 @@ extra_cost = 15
 1603.1.1 = { base_tax = 8 base_production = 8 base_manpower = 4  } # City begins to regain some measure of wealth, but never regains its former position.
 1611.7.16 = { controller = SWE } # Occupied by Jakob de la Gardie
 1617.2.27 = { controller = RUS unrest = 0 } # Peace of Stolbova
+1675.1.1 = { culture = russian } # Russian cultural consolidation

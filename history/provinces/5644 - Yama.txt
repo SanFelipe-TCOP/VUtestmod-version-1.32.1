@@ -5,7 +5,7 @@
 owner = NOV
 controller = NOV
 add_core = NOV
-culture = karelian
+culture = ingrian	#was karelian
 religion = orthodox
 hre = no
 base_tax = 2 
@@ -42,4 +42,5 @@ discovered_by = QAS
 1617.2.17 = { owner = SWE add_core = SWE remove_core = RUS } #The Peace of Stolbova
 1703.9.1 = { controller = RUS } # Boris Sheremetev captures Koporye
 1721.8.30 = { owner = RUS add_core = RUS remove_core = SWE } #The Peace of Nystad
+1750.1.1 = { culture = russian } #Russian expansion in the north by Peter the Great
 

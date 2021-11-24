@@ -4,7 +4,7 @@
 
 owner = NOV
 controller = NOV
-culture = russian #116novogorodian
+culture = novgorodian
 religion = orthodox
 hre = no
 base_tax = 5
@@ -32,6 +32,7 @@ extra_cost = 15
 1580.1.1 = { controller = PLC base_tax = 4  base_production = 4  base_manpower = 2  add_center_of_trade_level = -1 }			#Livonian War, according to most history the town was devastated during the occupation
 1582.1.15 = { controller = RUS } # Jam Zapolski truce returns Luki
 1598.1.7 = { unrest = 5 } # "Time of troubles"
+1600.1.1 = { culture = russian } # Russian cultural consolidation
 1611.1.1 = { 
 	base_tax = 2 
 	base_production = 2 

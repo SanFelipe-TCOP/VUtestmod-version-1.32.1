@@ -3,7 +3,7 @@
 owner = NOV
 controller = NOV
 add_core = NOV
-culture = russian
+culture = novgorodian
 religion = orthodox
 capital = "Kursko"
 base_tax = 2
@@ -66,3 +66,5 @@ discovered_by = western
 #} #Return to proper mod added owners and cuts vanilla core, typically.
 
 #1444 on
+
+1580.1.1 = { culture = russian } # Russian cultural consolidation

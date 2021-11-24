@@ -2335,7 +2335,7 @@ east_slavic = {
 		}
 	}
 	novgorodian = { #Novgorodian and most North Russian dialects.
-		#primary = NOV			#Culture removed
+		primary = NOV
 		male_names = {
 			Vasiliy Ivan Dmitriy Yuriy Andrei Semen Fyodor Afanasiy Akim Aleksandr Alexei Anatoliy Arkadiy
 			Dorofey Feodosiy Feofilakt Gavriil Innokentiy Iosif Lavrentiy Makariy Matveiy Mikhail Nazariy

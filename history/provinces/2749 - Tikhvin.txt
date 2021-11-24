@@ -4,7 +4,7 @@
 
 owner = NOV
 controller = NOV
-culture = russian #116novogorodian
+culture = novgorodian
 religion = orthodox
 hre = no
 base_tax = 2 
@@ -46,6 +46,7 @@ extra_cost = 8
 	base_manpower = 6
 }			#This is the date Luki loses its CoT, and around the time Tikhvin starts becoming a true trading power, not just a trading post, so effectively just moving it here on the date Luki loses it.
 1598.1.7 = { unrest = 5 } # "Time of troubles"
+1610.1.1 = { culture = russian } # Russian cultural consolidation
 1611.7.16 = { controller = SWE } # Occupied by Jakob de la Gardie
 1617.2.27 = { controller = RUS unrest = 0 } # Peace of Stolbova
 1640.1.1 = { fort_17th = yes base_manpower = 10 }	#date apprx. the city was majorly fortified and turned into one of the primary defensive positions in NW Russia

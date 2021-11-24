@@ -3,7 +3,7 @@
 owner = GLC
 controller = GLC
 add_core = GLC
-culture = russian
+culture = novgorodian	#Approximate, there's no clear boundry between Novgorodian and Russian
 religion = orthodox
 capital = "Ostashkov"
 base_tax = 3
@@ -66,3 +66,5 @@ discovered_by = western
 #} #Return to proper mod added owners and cuts vanilla core, typically.
 
 #1444 on
+
+1580.1.1 = { culture = russian } # Russian cultural consolidation

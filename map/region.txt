@@ -1760,6 +1760,11 @@ mesopotamia_region = {
 		shahrizor_area
 		#BTADDITIONS
 		mardin_area
+		#Split from iraq_arabi_area and mosul_area
+		lower_mesopotamia_area
+		baghdad_area
+		kut_area
+		badra_area
 	}
 }
 

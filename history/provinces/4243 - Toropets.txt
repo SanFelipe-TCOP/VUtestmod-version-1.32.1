@@ -2,7 +2,7 @@
 
 owner = SMO
 controller = SMO
-culture = russian
+culture = novgorodian
 religion = orthodox
 hre = no
 base_tax = 3 
@@ -26,6 +26,7 @@ discovered_by = ottoman
 1522.1.1 = { owner = MOS add_local_autonomy = -50 }
 1547.4.16 = { owner = RUS controller = RUS add_core = RUS remove_core = MOS }	#Ivan IV (the Terrible) crowned 'Tsar of all Russians'
 1569.7.4 = { add_core = PLC } # Polish-Lithuanian Commonwealth
+1580.1.1 = { culture = russian } # Russian cultural consolidation
 1611.1.1 = { controller = PLC }
 1618.12.11 = { owner = PLC } # Truce of Deulino
 1654.9.23 = { owner = RUS controller = RUS } # Reqonquered

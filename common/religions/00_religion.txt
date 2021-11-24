@@ -1437,7 +1437,7 @@ christian = {
 				coptic
 		}
 		country = {
-			administrative_efficiency = 0.15
+			administrative_efficiency = 0.1
 			core_creation = -0.15
 		}
 		country_as_secondary = {
