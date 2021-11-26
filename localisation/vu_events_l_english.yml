@@ -210,9 +210,9 @@
  vu_pagan.2.c:0 "Catholicism has failed, we shall return to old gods of our fathers"
  vu_pagan.2.tooltip:0 "All catholic countries will be upset (-30) that we have turned to paganism"
  #Revert VU to EU4 vanilla by DocRobert
- destroy_country.t:0 "Revert to EU4 Vanilla"
- destroy_country.d:1 "Do you have a potato rig? Do you miss vanilla? Do you want to play it whilst keeping VU's map? Look no further and click the button below."
- removed_country_name.a:0 "Give me VANILLA!"
+ destroy_countries_vu.1.t:0 "Revert to EU4 Vanilla"
+ destroy_countries_vu.1.d:1 "Do you have a potato rig? Do you miss vanilla? Do you want to play it whilst keeping VU's map? Look no further and click the button below."
+ destroy_countries_vu.1.a:0 "Give me VANILLA!"
  #Belgian Revolt
  incident_belgian_revolt:0 "The Belgian Rebellion"
  incident_belgian_revolt_member_alert:0 "The Belgian Revolt has escalated far beyond regional unrest and has become an international crisis as nations lend their armies to each side. The newly declared Kingdom of Belgium lies within the boundaries of our Kingdom, and thus it has been argued that the King has a duty to extend Royal protection over this fledgling nation. Royalist involvement, however it manifests, is sure to alter the fate of the Belgium forever."

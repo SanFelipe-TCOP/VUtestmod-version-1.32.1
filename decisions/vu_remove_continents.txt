@@ -4,7 +4,7 @@ country_decisions = {
 #   remove_region/superregion/continent = {
 #     potential = {
 #       ai = no
-#       NOT = {is_year = 1445}
+#       NOT = { is_year = 1445}
 #       NOT = { had_global_flag = removed_region/superregion/continent }
 #     }
 #
@@ -13,8 +13,8 @@ country_decisions = {
 #       region/superregion/continent = {
 #         every_core_country = {
 #              # prevents the player from deleting himself
-#             limit = {ai = yes}
-#             country_event = { id = destroy_countries_vu }
+#             limit = { ai = yes}
+#             country_event = { id = destroy_countries_vu.1 }
 #         }
 #       }
 #     }
@@ -28,67 +28,67 @@ country_decisions = {
 #
 #	   effect = {
 #			TAG_to_remove = {
-#			   country_event = { id = destroy_countries_vu }
+#			   country_event = { id = destroy_countries_vu.1 }
 #			}
 #		}
 #	}
 
-  remove_north_america = {
-    major = yes
+	remove_north_america = {
+		major = yes
 		potential = {
-		  ai = no
-      NOT = {is_year = 1445}
-      NOT = { has_global_flag = removed_north_america }
+			ai = no
+			NOT = { is_year = 1445}
+			NOT = { has_global_flag = removed_north_america }
 		}
 
-    effect = {
-      set_global_flag = removed_north_america
+		effect = {
+			set_global_flag = removed_north_america
 			north_america_superregion = {
-        every_core_country = {
-            limit = {ai = yes}
-				    country_event = { id = destroy_countries_vu }
-        }
+				every_core_country = {
+					limit = { ai = yes}
+					country_event = { id = destroy_countries_vu.1 }
+				}
 			}
 		}
 	}
 
-  remove_south_america = {
-    major = yes
-    potential = {
-      ai = no
-      NOT = {is_year = 1445}
-      NOT = { has_global_flag = removed_south_america }
-    }
+	remove_south_america = {
+		major = yes
+		potential = {
+			ai = no
+			NOT = { is_year = 1445}
+			NOT = { has_global_flag = removed_south_america }
+		}
 
-    effect = {
-      set_global_flag = removed_south_america
-      south_america_superregion = {
-        every_core_country = {
-            limit = {ai = yes}
-            country_event = { id = destroy_countries_vu }
-        }
-      }
-    }
-  }
+		effect = {
+			set_global_flag = removed_south_america
+			south_america_superregion = {
+				every_core_country = {
+					limit = { ai = yes}
+					country_event = { id = destroy_countries_vu.1 }
+				}
+			}
+		}
+	}
 
-  remove_central_america = {
-    major = yes
-    potential = {
-      ai = no
-      NOT = {is_year = 1445}
-      NOT = { has_global_flag = removed_central_america }
-    }
+	remove_central_america = {
+		major = yes
+		potential = {
+			ai = no
+			NOT = { is_year = 1445}
+			NOT = { has_global_flag = removed_central_america }
+		}
 
-    effect = {
-      set_global_flag = removed_central_america
-      central_america_superregion = {
-        every_core_country = {
-            limit = {ai = yes}
-            country_event = { id = destroy_countries_vu }
-        }
-      }
-    }
-  }
+		effect = {
+			set_global_flag = removed_central_america
+			central_america_superregion = {
+				every_core_country = {
+					limit = { ai = yes}
+					country_event = { id = destroy_countries_vu.1 }
+				}
+			}
+		}
+	}
 	
 	remove_primitive_nations_all = {
 		major = yes
@@ -278,7 +278,7 @@ country_decisions = {
 						#tag = KAA #Also starting expanding on the islands around 1500... good enough for now
 					}
 				}
-				country_event = { id = destroy_countries_vu }
+				country_event = { id = destroy_countries_vu.1 }
 			}
 		}
 	}

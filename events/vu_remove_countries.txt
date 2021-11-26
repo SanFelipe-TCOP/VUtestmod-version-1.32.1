@@ -2,8 +2,8 @@ namespace = destroy_countries_vu
 
 country_event = {
 	id = destroy_countries_vu.1
-	title = destroy_country.t
-	desc = destroy_country.d
+	title = destroy_countries_vu.1.t
+	desc = destroy_countries_vu.1.d
 	picture ="CITY_DEVELOPMENT_eventPicture"
 
 	is_triggered_only = yes
@@ -11,14 +11,13 @@ country_event = {
 
 	immediate = {
 		hidden_effect = {
-		  every_owned_province = {
-			cede_province = ---
-		  }
+			every_owned_province = {
+				cede_province = ---
+			}
 		}
 	}
 
 	option = {
-		name = removed_country_name.a
-		title = destroy_country.t
+		name = destroy_countries_vu.1.a
 	}
 }
